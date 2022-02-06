@@ -1,0 +1,195 @@
+INFO: 2022-02-02 17:33:17,198: Start data training with Models
+INFO: 2022-02-02 17:33:17,673: Train LinearRegression
+INFO: 2022-02-02 17:34:34,195: MAE: 814.8585861916268
+							   MSE:1207176.2476219274
+							   RMSE:1098.7157264833918
+INFO: 2022-02-02 17:34:41,110: Train RandomForestRegressor
+INFO: 2022-02-02 17:36:10,202: MAE: 774.0751060598241
+							   MSE:1227867.3594884279
+							   RMSE:1108.0917649222142
+INFO: 2022-02-02 17:36:14,636: --------------------------------------------------
+INFO: 2022-02-02 17:36:14,644: GridSearchCV
+INFO: 2022-02-02 17:43:55,220: GridSearchCV(estimator=RandomForestRegressor(),
+             param_grid={'max_depth': [2, 4, 5, 6, 7, 8],
+                         'n_estimators': [50, 100, 150, 200, 500]})
+INFO: 2022-02-02 17:43:55,278: Best Paramteres:{'max_depth': 5, 'n_estimators': 150}
+INFO: 2022-02-02 17:43:57,502: Train GradientBoostingRegressor
+INFO: 2022-02-02 17:43:57,572: MAE: 740.5177630295256
+							   MSE:1133344.2436683974
+							   RMSE:1064.5864190700524
+INFO: 2022-02-02 17:45:38,846: GridSearchCV(estimator=GradientBoostingRegressor(),
+             param_grid={'n_estimators': [10, 50, 100, 500, 1000]})
+INFO: 2022-02-02 17:45:38,875: Best Paramteres:{'n_estimators': 50}
+INFO: 2022-02-02 17:45:39,368: Train DecisionTreeRegressor
+INFO: 2022-02-02 17:45:39,419: MAE: 1050.2672838709677
+							   MSE:2280109.901899911
+							   RMSE:1510.0032787712453
+INFO: 2022-02-02 17:45:39,429: --------------------------------------------------
+INFO: 2022-02-02 17:45:39,431: GridSearchCV
+INFO: 2022-02-02 17:45:43,188: GridSearchCV(estimator=DecisionTreeRegressor(),
+             param_grid={'max_depth': [2, 18, 10, 15, 20],
+                         'min_samples_leaf': [50, 100, 150, 200, 500]})
+INFO: 2022-02-02 17:45:43,220: Best Paramteres:{'max_depth': 18, 'min_samples_leaf': 100}
+INFO: 2022-02-02 17:50:52,352: Train BaggingRegressor
+INFO: 2022-02-02 17:50:55,343: MAE: 798.544216686217
+							   MSE:1320048.0402633734
+							   RMSE:1148.9334359584864
+INFO: 2022-02-02 17:51:40,683: Saving the best model
+INFO: 2022-02-03 19:08:21,820: Start data training with Models
+INFO: 2022-02-03 19:08:22,243: Train LinearRegression
+INFO: 2022-02-03 19:08:22,300: MAE: 814.8585861916268
+							   MSE:1207176.2476219274
+							   RMSE:1098.7157264833918
+INFO: 2022-02-03 19:08:24,994: Train RandomForestRegressor
+INFO: 2022-02-03 19:08:25,208: MAE: 772.9006094774193
+							   MSE:1232088.8961005763
+							   RMSE:1109.9949982322337
+INFO: 2022-02-03 19:08:25,233: --------------------------------------------------
+INFO: 2022-02-03 19:08:25,235: GridSearchCV
+INFO: 2022-02-03 19:12:28,671: Best Paramteres:{'max_depth': 5, 'n_estimators': 200}
+INFO: 2022-02-03 19:12:30,901: Train GradientBoostingRegressor
+INFO: 2022-02-03 19:12:30,984: MAE: 741.0069506155605
+							   MSE:1134620.2915569071
+							   RMSE:1065.1855667238958
+INFO: 2022-02-03 19:13:22,833: Best Paramteres:{'n_estimators': 50}
+INFO: 2022-02-03 19:13:23,346: Train DecisionTreeRegressor
+INFO: 2022-02-03 19:13:23,410: MAE: 1051.0621436363635
+							   MSE:2282773.9063701965
+							   RMSE:1510.885140032225
+INFO: 2022-02-03 19:13:23,417: --------------------------------------------------
+INFO: 2022-02-03 19:13:23,418: GridSearchCV
+INFO: 2022-02-03 19:13:25,406: Best Paramteres:{'max_depth': 18, 'min_samples_leaf': 100}
+INFO: 2022-02-03 19:13:25,485: Train BaggingRegressor
+INFO: 2022-02-03 19:13:25,859: MAE: 814.3587434545454
+							   MSE:1360005.3936102814
+							   RMSE:1166.1926914580974
+INFO: 2022-02-03 19:13:26,138: Saving the best model
+INFO: 2022-02-05 11:03:50,057: Start data training with Models
+INFO: 2022-02-05 11:04:31,665: Train LinearRegression
+INFO: 2022-02-05 11:04:33,320: MAE: 814.8585861916268
+							   MSE:1207176.2476219274
+							   RMSE:1098.7157264833918
+INFO: 2022-02-05 11:04:37,209: Train RandomForestRegressor
+INFO: 2022-02-05 11:04:38,113: MAE: 772.9169303636363
+							   MSE:1229728.5726893349
+							   RMSE:1108.9312750073084
+INFO: 2022-02-05 11:04:40,305: --------------------------------------------------
+INFO: 2022-02-05 11:04:40,307: GridSearchCV
+INFO: 2022-02-05 11:09:06,120: Best Paramteres:{'max_depth': 5, 'n_estimators': 100}
+INFO: 2022-02-05 11:09:08,218: Train GradientBoostingRegressor
+INFO: 2022-02-05 11:09:08,272: MAE: 740.5994438366625
+							   MSE:1134021.0624526339
+							   RMSE:1064.9042503683766
+INFO: 2022-02-05 11:10:01,091: Best Paramteres:{'n_estimators': 50}
+INFO: 2022-02-05 11:10:01,598: Train DecisionTreeRegressor
+INFO: 2022-02-05 11:10:01,653: MAE: 1046.0741106158357
+							   MSE:2228922.595884332
+							   RMSE:1492.957667144093
+INFO: 2022-02-05 11:10:01,673: --------------------------------------------------
+INFO: 2022-02-05 11:10:01,675: GridSearchCV
+INFO: 2022-02-05 11:10:03,659: Best Paramteres:{'max_depth': 18, 'min_samples_leaf': 100}
+INFO: 2022-02-05 11:10:03,740: Train BaggingRegressor
+INFO: 2022-02-05 11:10:04,113: MAE: 806.7435339237537
+							   MSE:1348085.4202463934
+							   RMSE:1161.070807593746
+INFO: 2022-02-05 11:10:04,359: Saving the best model
+INFO: 2022-02-05 11:28:10,710: Start data training with Models
+INFO: 2022-02-05 11:28:11,027: Train LinearRegression
+INFO: 2022-02-05 11:28:11,080: MAE: 814.8585861916268
+							   MSE:1207176.2476219274
+							   RMSE:1098.7157264833918
+INFO: 2022-02-05 11:28:13,652: Train RandomForestRegressor
+INFO: 2022-02-05 11:28:13,901: MAE: 774.1885966486802
+							   MSE:1233544.7631659412
+							   RMSE:1110.6506035499829
+INFO: 2022-02-05 11:28:13,923: --------------------------------------------------
+INFO: 2022-02-05 11:28:13,924: GridSearchCV
+INFO: 2022-02-05 13:53:42,047: Start data training with Models
+INFO: 2022-02-05 13:53:48,477: Train LinearRegression
+INFO: 2022-02-05 13:53:52,848: MAE: 879.7949971326514
+							   MSE:1377098.213681281
+							   RMSE:1173.4982802208451
+INFO: 2022-02-05 13:53:57,593: Train RandomForestRegressor
+INFO: 2022-02-05 13:53:59,312: MAE: 777.4136732739003
+							   MSE:1235273.5266786618
+							   RMSE:1111.4285972021153
+INFO: 2022-02-05 13:54:02,001: --------------------------------------------------
+INFO: 2022-02-05 13:54:02,002: GridSearchCV
+INFO: 2022-02-05 13:57:03,561: Best Paramteres:{'max_depth': 5, 'n_estimators': 200}
+INFO: 2022-02-05 13:57:05,254: Train GradientBoostingRegressor
+INFO: 2022-02-05 13:57:05,312: MAE: 739.7603073144604
+							   MSE:1128826.0952507213
+							   RMSE:1062.4622794484148
+INFO: 2022-02-05 13:57:44,288: Best Paramteres:{'n_estimators': 50}
+INFO: 2022-02-05 13:57:44,653: Train DecisionTreeRegressor
+INFO: 2022-02-05 13:57:44,705: MAE: 1061.4017638123166
+							   MSE:2374804.780781996
+							   RMSE:1541.0401619626907
+INFO: 2022-02-05 13:57:44,714: --------------------------------------------------
+INFO: 2022-02-05 13:57:44,716: GridSearchCV
+INFO: 2022-02-05 13:57:46,215: Best Paramteres:{'max_depth': 18, 'min_samples_leaf': 100}
+INFO: 2022-02-05 13:57:46,293: Train BaggingRegressor
+INFO: 2022-02-05 13:57:46,598: MAE: 803.0819072727272
+							   MSE:1316429.0069001047
+							   RMSE:1147.3574015537201
+INFO: 2022-02-05 13:57:46,831: Saving the best model
+INFO: 2022-02-05 14:09:40,812: Start data training with Models
+INFO: 2022-02-05 14:09:40,812: Start data training with Models
+INFO: 2022-02-05 14:13:53,914: Start data training with Models
+INFO: 2022-02-05 14:13:54,213: Train LinearRegression
+INFO: 2022-02-05 14:13:54,270: MAE: 814.8585861916268
+							   MSE:1207176.2476219274
+							   RMSE:1098.7157264833918
+INFO: 2022-02-05 14:13:56,829: Train RandomForestRegressor
+INFO: 2022-02-05 14:13:57,024: MAE: 773.6553045161289
+							   MSE:1224971.4791213237
+							   RMSE:1106.784296564296
+INFO: 2022-02-05 14:13:57,049: --------------------------------------------------
+INFO: 2022-02-05 14:13:57,051: GridSearchCV
+INFO: 2022-02-05 14:17:30,260: Best Paramteres:{'max_depth': 5, 'n_estimators': 100}
+INFO: 2022-02-05 14:17:32,379: Train GradientBoostingRegressor
+INFO: 2022-02-05 14:17:32,433: MAE: 741.0733684809705
+							   MSE:1135021.4318032635
+							   RMSE:1065.3738460293005
+INFO: 2022-02-05 14:18:20,700: Best Paramteres:{'n_estimators': 50}
+INFO: 2022-02-05 14:18:21,178: Train DecisionTreeRegressor
+INFO: 2022-02-05 14:18:21,233: MAE: 1054.6678118475074
+							   MSE:2284814.0242211646
+							   RMSE:1511.5601292112613
+INFO: 2022-02-05 14:18:21,256: --------------------------------------------------
+INFO: 2022-02-05 14:18:21,258: GridSearchCV
+INFO: 2022-02-05 14:18:23,092: Best Paramteres:{'max_depth': 18, 'min_samples_leaf': 100}
+INFO: 2022-02-05 14:18:23,170: Train BaggingRegressor
+INFO: 2022-02-05 14:18:23,530: MAE: 800.8349396598242
+							   MSE:1326461.0235306094
+							   RMSE:1151.7208965416098
+INFO: 2022-02-05 14:18:23,793: Saving the best model
+INFO: 2022-02-05 15:03:41,394: Start data training with Models
+INFO: 2022-02-05 15:03:41,715: Train LinearRegression
+INFO: 2022-02-05 15:03:41,766: MAE: 814.8585861916268
+							   MSE:1207176.2476219274
+							   RMSE:1098.7157264833918
+INFO: 2022-02-05 15:03:44,462: Train RandomForestRegressor
+INFO: 2022-02-05 15:03:44,705: MAE: 776.3331443061584
+							   MSE:1237192.3524432934
+							   RMSE:1112.2914871755934
+INFO: 2022-02-05 15:03:44,731: --------------------------------------------------
+INFO: 2022-02-05 15:03:44,732: GridSearchCV
+INFO: 2022-02-05 15:07:20,217: Best Paramteres:{'max_depth': 5, 'n_estimators': 500}
+INFO: 2022-02-05 15:07:22,303: Train GradientBoostingRegressor
+INFO: 2022-02-05 15:07:22,358: MAE: 740.7751905098288
+							   MSE:1134050.9083782902
+							   RMSE:1064.9182637077317
+INFO: 2022-02-05 15:08:10,895: Best Paramteres:{'n_estimators': 50}
+INFO: 2022-02-05 15:08:11,339: Train DecisionTreeRegressor
+INFO: 2022-02-05 15:08:11,393: MAE: 1043.7566970674488
+							   MSE:2244947.3857233855
+							   RMSE:1498.3148486627854
+INFO: 2022-02-05 15:08:11,402: --------------------------------------------------
+INFO: 2022-02-05 15:08:11,403: GridSearchCV
+INFO: 2022-02-05 15:08:13,314: Best Paramteres:{'max_depth': 18, 'min_samples_leaf': 100}
+INFO: 2022-02-05 15:08:13,394: Train BaggingRegressor
+INFO: 2022-02-05 15:08:13,747: MAE: 806.9998571612904
+							   MSE:1338524.9354260492
+							   RMSE:1156.9463839893572
+INFO: 2022-02-05 15:08:14,024: Saving the best model
